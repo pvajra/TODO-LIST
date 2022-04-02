@@ -1,0 +1,59 @@
+
+    body {
+        background: linear-gradient(to right, rgb(96, 108, 136), rgb(63, 76, 107));
+      }
+  
+      .cont {
+        display: flex;
+        justify-content: center;
+        color: white;
+        text-align: center;
+      }
+  
+      .form-group {
+        width: 30vw;
+      }
+  
+      .tablediv {
+        display: flex;
+        justify-content: center;
+        margin: 35vh;
+      }
+  
+      .table {
+        width: 60vw;
+        color: black;
+        background-color: white;
+        border-radius: 10px;
+      }
+  
+      .text-center {
+        color: white;
+      }
+      .deletebutton{
+           text-align: center;
+        }
+      .delete{
+        text-align: center;
+      }  
+      .link {
+        color: black;
+      }
+      .showlist {
+       align-items: center;
+       text-align: center;
+      }
+      @media screen and (max-width: 700px) {
+        .form-group {
+          width: 50vw;
+         }
+         .table{
+          width: 90vw;
+         }
+         .delete{
+           width: 11vw;
+         }
+        }
+  
+        <a href="dellist.jsp?did=<% out.println(rs.getString(1)); %>">
+       
