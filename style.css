@@ -55,5 +55,4 @@
          }
         }
   
-        <a href="dellist.jsp?did=<% out.println(rs.getString(1)); %>">
        
